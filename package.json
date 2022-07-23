@@ -1,0 +1,23 @@
+{
+	"name": "remove-invalid-symlinks",
+	"description": "Removes invalid symlinks.",
+	"version": "0.1.0-1",
+	"main": "lib/index.js",
+	"bin": {
+		"remove-invalid-symlink": "lib/cli.js"
+	},
+	"scripts": {
+		"start": "node lib/cli",
+		"test": "npx nslibmgr test"
+	},
+	"author": "Prokop Schield",
+	"devDependencies": {
+		"@types/node": ">=16"
+	},
+	"keywords": [],
+	"license": "GPL-3.0-or-later",
+	"dependencies": {
+		"@prokopschield/argv": "^0.1.1",
+		"ps-std": "^0.1.6"
+	}
+}
